@@ -9,9 +9,8 @@
         <div>
             <table border="black">
                 <caption>Student Information</caption>
-                <thead>
                     <tr>
-                        <th>Info</th>
+                        <th rowspan="6">Info</th>
                         <th rowspan="2">Name</th>
                         <th colspan="2">Address</th>
                     </tr>
@@ -20,8 +19,7 @@
                         <th>City</th>
                         <th>House</th>
                     </tr>
-                </thead>
-                <tbody>
+               
                     <tr>
                         <td>A</td>
                         <td>Dehli</td>
@@ -42,7 +40,6 @@
                         <td>Pune</td>
                         <td>4</td>
                     </tr>
-                </tbody>
             </table>
         </div>
         <hr>
@@ -53,6 +50,7 @@
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="Uname">
                 </div>
+                <br>
                 <div>
                     Sex:
                     <input type="radio" id =male name="sex" value="male">
@@ -60,6 +58,7 @@
                     <input type="radio" id="female" name="sex" value="female">
                     <label for="female">Female</label>
                 </div>
+                <br>
                 <div>
                     Country :
                     <select name="country" id="country">
@@ -69,19 +68,62 @@
                         <option value="turkey">Turkey</option>
                     </select>
                 </div>
+                <br>
                 <div>
                     Message:
-                    <textarea name="feedback" id="fd"></textarea>
+                    <br>
+                    <textarea name="feedback" id="fd" rows="3"></textarea>
                 </div>
+                <br>
                 <div>
                     <input type="checkbox" id="sub" name="subscribe">
                     <label for="sub">Subscribe?</label>
                 </div>
+                <br>
                 <button>Submit</button>
-
-                <!-- Question no 3-->
-             </form>
+            </form>
         </div>
+        <hr>
+        <!-- Question no 3-->
+
+        <form action="now/">
+            <div>
+                <h2>Feedback Form</h2>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Write your name" name="username">
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Write your email" name="useremail">
+            </div>
+            <br>
+            <div>
+                Message:
+                <br>
+                <textarea name="feedback" id="fd" rows="4"></textarea>
+            </div>
+            <br>
+            <div>
+                Rate us our of 5:
+                <br>
+                <input type="radio" id="1" name="rate">
+                <label for="1">1</label>
+                <br>
+                <input type="radio" id="2" name="rate">
+                <label for="2">2</label>
+                <br>
+                <input type="radio" id="3" name="rate">
+                <label for="3">3</label>
+                <br>
+                <input type="radio" id="4" name="rate">
+                <label for="4">4</label>
+                <br>
+                <input type="radio" id="5" name="rate">
+                <label for="5">5</label>
+            </div>
+            <br><br>
+            <button>Send your message!</button>
+        </form>
+
 
     </body>
 </html>
