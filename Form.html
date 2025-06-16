@@ -12,23 +12,43 @@
             <!-- it can be text, number, password, date, color,check box, email, radio etc. -->
             <!-- (placeholder) is use to guide users what you are going to enter in the box -->
             <div>
+                <!-- for username -->
                 <label for="username">Username :</label>
-                <input type="text" id="username" placeholder="Enter Name">
+                <input type="text" id="username" placeholder="Enter Name" required>
             </div>
             <div>
+                <!-- for password -->
                 <label for="password">Password :</label>
-                <input type="password" id="password" placeholder="Password">
+                <input type="password" id="password" placeholder="Password" required>
             </div>
             <div>
+                <!-- For captcha -->
                 <label for="captcha">Captcha :</label>
-                <input type="number" id="captcha" placeholder=" Captcha">
+                <input type="number" id="captcha" placeholder=" Captcha" required>
             </div>
             <div>
+                <!-- for date -->
                 <label for="date">Date :</label>
-                <input type="date" id="date" placeholder="Date">
+                <input type="date" id="date" placeholder="Date" required>
             </div>
+            <div>
+                <!-- for gender -->
+                <label>Gender :</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <!-- for age verfication-->
+                <label for="box">Age 18+</label>
+                <input type="checkbox" id="box" required>
+            </div>
+            <!-- submit button to process -->
             <button>Submit</button>
+            <!-- simple buttion working none -->
             <button type="button">Log In</button>
+            <!-- button to resat all the filled details -->
             <button type="reset">Resat</button>
         </form>
     </body>
