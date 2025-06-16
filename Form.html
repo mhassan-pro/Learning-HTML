@@ -10,14 +10,28 @@
     <form action="/action">
         <!-- ( type )is use to determine which type of data is going  be entered by the user -->
         <!-- it can be text, number, password, date, color,check box, email, radio etc. -->
-         <!-- (placeholder) is use to guide users what you are going to enter in the box -->
-        <label>
-            <input type="text" placeholder="Enter Name">
-            <input type="password" placeholder="Password">
-            <input type="number" placeholder=" Captcha">
-            <input type="date" placeholder="Date">
-        </label>
+        <!-- (placeholder) is use to guide users what you are going to enter in the box -->
+        <div>
+            <label for="username">Username :</label>
+            <input type="text" id="username" placeholder="Enter Name">
+        </div>
+        <div>
+            <label for="password">Password :</label>
+            <input type="password" id="password" placeholder="Password">
+        </div>
+        <div>
+            <label for="captcha">Captcha :</label>
+            <input type="number" id="captcha" placeholder=" Captcha">
+        </div>
+        <div>
+            <label for="date">Date :</label>
+            <input type="date" id="date" placeholder="Date">
+        </div>
         
+        
+        
+       
+
 
 
     </form>
