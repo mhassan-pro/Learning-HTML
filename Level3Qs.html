@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body><!-- Question no 1  Creating a table -->
+        <div>
+            <table border="black">
+                <caption>Student Information</caption>
+                <thead>
+                    <tr>
+                        <th>Info</th>
+                        <th rowspan="2">Name</th>
+                        <th colspan="2">Address</th>
+                    </tr>
+                    <tr>
+                        
+                        <th>City</th>
+                        <th>House</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>A</td>
+                        <td>Dehli</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                        <td>Mumbai</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>Kolkata</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>D</td>
+                        <td>Pune</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <hr>
+        <div>
+            <!-- Question No 2-->
+             <form action="action/">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="Uname">
+                </div>
+                <div>
+                    Sex:
+                    <input type="radio" id =male name="sex" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="sex" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    Country :
+                    <select name="country" id="country">
+                        <option>Select an option</option>
+                        <option value="pakistan">Pakistan</option>
+                        <option value="iran">Iran</option>
+                        <option value="turkey">Turkey</option>
+                    </select>
+                </div>
+                <div>
+                    Message:
+                    <textarea name="feedback" id="fd"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" id="sub" name="subscribe">
+                    <label for="sub">Subscribe?</label>
+                </div>
+                <button>Submit</button>
+
+                <!-- Question no 3-->
+             </form>
+        </div>
+
+    </body>
+</html>
