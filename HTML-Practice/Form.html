@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Practice</title>
+    </head>
+    <body>
+        <!-- Action attribute defines what action is going to be perform when the form data is submited-->
+        <form action="/action">
+            <!-- ( type )is use to determine which type of data is going  be entered by the user -->
+            <!-- it can be text, number, password, date, color,check box, email, radio etc. -->
+            <!-- (placeholder) is use to guide users what you are going to enter in the box -->
+            <div>
+                <!-- for username -->
+                <label for="username">Username :</label>
+                <input type="text" id="username" placeholder="Enter Name" required>
+            </div>
+            <div>
+                <!-- for password -->
+                <label for="password">Password :</label>
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <div>
+                <!-- For captcha -->
+                <label for="captcha">Captcha :</label>
+                <input type="number" id="captcha" placeholder=" Captcha" required>
+            </div>
+            <div>
+                <!-- for date -->
+                <label for="date">Date :</label>
+                <input type="date" id="date" placeholder="Date" required>
+            </div>
+            <div>
+                <!-- for gender -->
+                <label>Gender :</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <!-- for age verfication-->
+                <label for="box">Age 18+</label>
+                <input type="checkbox" id="box" required>
+            </div>
+            <!-- Select tag to create a dropdown button -->
+             <div>
+                <label>Profession</label>
+                <select name="Prefession" id="profession">
+                    <option>Choose Option</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="student">Student</option>
+                </select>
+             </div>
+            <!--Range input  -->
+            <div>
+                <label for="volume">Select Volume</label>
+                <input type="range" min="0" max="10" id="volume" name="volume">
+            </div>
+            <!-- text-ara element for feedback -->
+             <div>
+                <label for="fd">Your valueable feedback</label>
+                <textarea name="feedback" id="fd" placeholder="Type here...." rows="2" cols="25" ></textarea>
+             </div>
+            <!-- submit button to process -->
+            <button>Submit</button>
+            <!-- simple buttion working none -->
+            <button type="button">Log In</button>
+            <!-- button to resat all the filled details -->
+            <button type="reset">Resat</button>
+        </form>
+    </body>
+</html>
