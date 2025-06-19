@@ -1,0 +1,31 @@
+h1{
+    color: rgb(183, 75, 36);
+    text-align: center;
+    text-decoration:underline dotted;
+}
+h2{
+    text-decoration:gray underline;
+    text-align: end;  
+}
+p{
+    font-family: 'Times New Roman';
+    text-align:justify;
+    font-weight: 500;
+    font-size:medium;
+    line-height: 1.4;
+    letter-spacing:1.5px;
+
+
+}
+a{
+    text-decoration: none;
+    font-style: italic;
+    color: darkgray;
+}
+blockquote{
+    font-weight: 700;
+}
+footer{
+    font-weight: bold;
+    font-size: 12px;
+}
