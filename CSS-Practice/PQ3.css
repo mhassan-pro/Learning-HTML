@@ -8,7 +8,7 @@ h2{
     text-align: end;  
 }
 p{
-    font-family: 'Times New Roman';
+    font-family: monospace;
     text-align:justify;
     font-weight: 500;
     font-size:medium;
@@ -18,12 +18,16 @@ p{
 
 }
 a{
-    text-decoration: none;
+    color: cadetblue;
+    text-decoration:dashed underline black ;
     font-style: italic;
-    color: darkgray;
+    font-weight: bolder;
+    font-family:'Brush Script MT', cursive;
 }
 blockquote{
     font-weight: 700;
+    font-family: 'Pacifico', cursive;
+
 }
 footer{
     font-weight: bold;
