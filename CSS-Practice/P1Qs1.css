@@ -7,7 +7,9 @@ h3{
     color:#000000;
 }
 p{
+    color: #964B00;
     text-align: center;
+    line-height: 30px;
 }
 h4{
     text-align: center;
@@ -15,4 +17,16 @@ h4{
 a{
     color:rgb(0, 255, 0);
     text-decoration: none;
+}
+textarea{
+    color: #000000;
+}
+
+button{
+    color:blueviolet;
+    background-color: white;
+    text-align: center;
+}
+span{
+    text-decoration: underline;
 }
