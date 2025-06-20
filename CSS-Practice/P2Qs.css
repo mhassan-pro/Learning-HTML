@@ -24,3 +24,11 @@ button:hover{
     color: yellow;
 
 }
+
+h1::first-letter{
+    color:red;
+}
+
+input:checked{
+    color: green;
+}
