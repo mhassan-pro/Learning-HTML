@@ -29,6 +29,6 @@ h1::first-letter{
     color:red;
 }
 
-input:checked{
+input[type="checkbox"] +lebal{
     color: green;
 }
