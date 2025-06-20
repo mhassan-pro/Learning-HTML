@@ -1,0 +1,11 @@
+/* first method */
+#myid p{
+    color: green;
+}
+
+/* second method */
+
+div[id="newId"]
+{
+    color: purple;
+}
