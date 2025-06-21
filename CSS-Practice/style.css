@@ -34,3 +34,15 @@
     background-color: cornflowerblue;
     color: darkblue;
   }
+
+  div > input{
+    background-color: darksalmon;
+  }
+
+  input[type="text"]{
+    color: aqua;
+  }
+  input[type="password"]{
+    color: black;
+  }
+  
