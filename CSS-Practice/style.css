@@ -19,3 +19,7 @@
   nav a{
     color: purple;
   }
+  .post a{
+    color: purple;
+    background-color: yellow;
+  }
