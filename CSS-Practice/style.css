@@ -56,4 +56,9 @@
   button:active{
     background-color: #e95111;
   }
+  input[type="radio"]:checked + label{
+    font-weight:bolder;
+    color:chocolate
+  }
+
   
