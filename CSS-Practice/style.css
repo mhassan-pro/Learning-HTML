@@ -7,6 +7,7 @@
   #login
   {
     background-color: #ffffff;
+    color: black;
   }
   #signup{
     background-color: #e95111;
@@ -44,5 +45,15 @@
   }
   input[type="password"]{
     color: black;
+  }
+  button:hover{
+    background-color: black;
+    color: #ffffff;
+  }
+  h3:hover{
+    text-decoration: overline;
+  }
+  button:active{
+    background-color: #e95111;
   }
   
