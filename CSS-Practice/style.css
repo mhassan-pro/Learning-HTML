@@ -60,5 +60,8 @@
     font-weight:bolder;
     color:chocolate
   }
+  div:nth-of-type(2n){
+    background-color:orangered;
+  }
 
   
