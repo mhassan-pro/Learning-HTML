@@ -29,6 +29,7 @@ h1::first-letter{
     color:red;
 }
 
-input[type="checkbox"] +lebal{
+input[type="checkbox"]:checked + label{
     color: green;
+    font-weight: 900;
 }
