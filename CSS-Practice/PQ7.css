@@ -1,0 +1,47 @@
+#box{
+    height: 200px;
+    width:70px;
+    border: 2px solid black;
+}
+/*
+It can be done by this way 
+.inner1{
+    height: 50px;
+    width:50px;
+    background-color: red;
+    border:2px solid black;
+    margin:10px;
+    border-radius:100px;
+}
+.inner2{
+    height: 50px;
+    width:50px;
+    border:2px solid black;
+    margin:10px;
+    border-radius:100px;
+}
+.inner3{  height: 50px;
+    width:50px;
+    border:2px solid black;
+    margin:10px;
+    border-radius:100px;
+}
+    */
+/* Method 2  */
+
+.inner{
+    height: 50px;
+    width:50px;
+    border:2px solid black;
+    margin:10px;
+    border-radius:100px;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
