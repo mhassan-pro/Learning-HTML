@@ -1,5 +1,14 @@
 div{
     height: 200px;
     width: 600px;
-    
+    background-color: pink;
+    border:5px solid yellowgreen;
+    border-left-color:blue ;
+    border-left-style:dashed;
+    border-radius: 10px;
+    border-top-right-radius: 20px;
+}
+h1{
+    border:2px green dashed;
+
 }
